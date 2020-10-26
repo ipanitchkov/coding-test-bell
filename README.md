@@ -2,9 +2,10 @@
 
 ## Project content
 
-The project consists of two components:
+The project consists of two components and a Postman collection:
 1. The library under the `calculate-total-cost` folder.
 2. A server application under the `test-app` folder that is using the library and provides an interface to deal with the functionality.
+3. A Postman collection holding test requests could be found under the main folder of the project.
 
 Actual cost calculations are in `calculate-total-cost/src/test.ts`.
 
@@ -25,7 +26,7 @@ The server application will be accepting http requests on port 3000.
 
 ### Testing the library by using the provided server side application
 
-You could use Postman to perform http calls to the system.
+You could use Postman to perform http calls to the system. 
 
 The application is accepting POST requests to http://localhost:3000/
 
