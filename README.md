@@ -1,14 +1,10 @@
-# coding-test-bell
-
-# The project demonstrates a Node.js/TypeScript library that calculates the total cost of an order based on province taxes and discounts
-
-Additionally there is a simple Node.js/TypeScript server application that is using the library and provides an interface to deal with the functionality.
+# The project demonstrates a Node.js/TypeScript library that calculates total cost of orders based on province taxes and discounts
 
 ## Project content
 
 The project consists of two components:
-1. The library under the `calculate-total-cost` folder
-2. The server application under the `test-app` folder
+1. The library under the `calculate-total-cost` folder.
+2. A server application under the `test-app` folder that is using the library and provides an interface to deal with the functionality.
 
 Actual cost calculations are in `calculate-total-cost/src/test.ts`.
 
@@ -49,8 +45,7 @@ You could run all suite tests from command line inside the `calculate-total-cost
 
 ## Extras
 
-* Written in TypeScript
-* TSLint support
 * Prettier support
+* TSLint support
 * Unit tests
-* Coverage
+* Written in TypeScript
